@@ -1,6 +1,6 @@
 " janitor.vim
 "
-" plugin created just for remove extra whitespaces in
+" plugin created just for remove extra whitespaces at
 " end of each line
 "
 "                                         by Aleksandr Koss (http://nocorp.me)
