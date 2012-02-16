@@ -12,6 +12,7 @@ fun! RemoveSpaces()
     let line = line('.')
     let col = col('.')
     sil %s/\s\+$//ge
+    sil %s/[\s\n]\+\%$//g
     call cursor(line, col)
   endif
 endf
