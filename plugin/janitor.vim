@@ -23,7 +23,7 @@ fun! TrimLines()
   if search('[\s\n]*\%$', 'n')
     let line = line('.')
     let col = col('.')
-    sil %s/[\s\n]*\%$//g
+    sil %s/\n*\%$//g
     call cursor(line, col)
   endif
 endf
